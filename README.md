@@ -23,7 +23,7 @@ python3 -m http.server 8000
 
 ## Production
 
-https://lanka.vercel.app
+https://lanka-navy.vercel.app
 
 ## TODO
 

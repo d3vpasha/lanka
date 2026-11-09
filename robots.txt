@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lanka.vercel.app/sitemap.xml
+Sitemap: https://lanka-navy.vercel.app/sitemap.xml
