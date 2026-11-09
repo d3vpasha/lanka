@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 48" role="img" aria-label="LANKA">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 40H43" stroke="#2f4a3f" stroke-width="7"/>
+    <path d="M7 27H33" stroke="#a89c86" stroke-width="7"/>
+    <path d="M7 14H22" stroke="#d99a1e" stroke-width="7"/>
+    <path d="M62 10V38H78M86 38L96 10L106 38M89.5 28H102.5M114 38V10L132 38V10M140 10V38M157 10L141.5 25.5M146 21L158 38M166 38L176 10L186 38M169.5 28H182.5" stroke="#1f2a26" stroke-width="4"/>
+  </g>
+</svg>
