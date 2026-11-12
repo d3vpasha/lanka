@@ -35,7 +35,11 @@
       var d = new FormData(form);
       var txt = 'Demande de devis – ' + d.get('travaux') + '\n' +
         'Nom : ' + d.get('nom') + '\nVille : ' + d.get('ville') + '\n\n' + d.get('message');
-      window.open('https://wa.me/33635530551?text=' + encodeURIComponent(txt), '_blank', 'noopener');
+      if (e.submitter && e.submitter.value === 'mail') {
+        window.location.href = 'mailto:contact@ste-lanka.fr?subject=' + encodeURIComponent('Demande de devis') + '&body=' + encodeURIComponent(txt);
+      } else {
+        window.open('https://wa.me/33635530551?text=' + encodeURIComponent(txt), '_blank', 'noopener');
+      }
     });
   }
 

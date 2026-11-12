@@ -23,15 +23,13 @@ python3 -m http.server 8000
 
 ## Production
 
-https://lanka-navy.vercel.app
+https://ste-lanka.fr
 
 ## TODO
 
 - SIREN, SIRET, code APE et lien annuaire-entreprises (après immatriculation)
-- Adresse e-mail pro (mailto, JSON-LD) ; basculer le formulaire en mailto
 - Assureur et n° de police décennale
 - Valider la liste des prestations et des communes avec le client
-- Nom de domaine définitif : mettre à jour canonical, og:url, sitemap, robots.txt
 
 ## Versions
 

@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LANKA – Sols, plâtrerie et peinture à Livry-Gargan (93)</title>
   <meta name="description" content="LANKA, artisan à Livry-Gargan : pose de sols durs et souples, plâtrerie, peinture intérieure et extérieure en Seine-Saint-Denis. Devis gratuit au 06 35 53 05 51.">
-  <link rel="canonical" href="https://lanka-navy.vercel.app/">
+  <link rel="canonical" href="https://ste-lanka.fr/">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <meta name="theme-color" content="#2f4a3f">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:title" content="LANKA – Sols, plâtrerie et peinture à Livry-Gargan">
   <meta property="og:description" content="Pose de sols, plâtrerie, peinture intérieure et extérieure en Seine-Saint-Denis. Devis gratuit.">
-  <meta property="og:url" content="https://lanka-navy.vercel.app/">
+  <meta property="og:url" content="https://ste-lanka.fr/">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script type="application/ld+json">
   {
@@ -20,9 +20,10 @@
     "@type": "LocalBusiness",
     "name": "LANKA",
     "description": "Pose de sols durs et sols souples, plâtrerie, peinture intérieure et extérieure.",
-    "url": "https://lanka-navy.vercel.app/",
-    "logo": "https://lanka-navy.vercel.app/assets/img/logo.svg",
+    "url": "https://ste-lanka.fr/",
+    "logo": "https://ste-lanka.fr/assets/img/logo.svg",
     "telephone": "+33635530551",
+    "email": "contact@ste-lanka.fr",
     "foundingDate": "2026",
     "address": {
       "@type": "PostalAddress",
@@ -37,7 +38,7 @@
     "founder": { "@type": "Person", "name": "Prasanth Murugananthan" }
   }
   </script>
-  <!-- TODO: ajouter "email" et "identifier" (SIREN) au JSON-LD après immatriculation et création de la boîte mail -->
+  <!-- TODO: ajouter "identifier" (SIREN) au JSON-LD après immatriculation -->
 </head>
 <body>
   <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -207,12 +208,11 @@
           <ul class="channels">
             <li><a href="tel:+33635530551"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>06 35 53 05 51</a></li>
             <li><a href="https://wa.me/33635530551" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-chat"/></svg>Écrire sur WhatsApp</a></li>
-            <!-- TODO: remplacer par l'adresse mail pro (ex. contact@<domaine>) et ajouter un lien mailto avec le sujet "Demande de devis" -->
-            <li><span><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg><span class="todo">[TODO : adresse e-mail]</span></span></li>
+            <li><a href="mailto:contact@ste-lanka.fr?subject=Demande%20de%20devis"><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>contact@ste-lanka.fr</a></li>
             <li><span><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>15T rue Marc Sangnier, 93190 Livry-Gargan</span></li>
           </ul>
         </div>
-        <!-- Pas de backend : le formulaire prépare un message WhatsApp. TODO : basculer en mailto quand l'adresse mail existera. -->
+        <!-- Pas de backend : le formulaire prépare un message WhatsApp ou un e-mail (mailto). -->
         <form id="devis-form" class="form">
           <label>Votre nom<input name="nom" required autocomplete="name"></label>
           <label>Votre ville<input name="ville" required autocomplete="address-level2"></label>
@@ -226,7 +226,10 @@
             </select>
           </label>
           <label>Votre projet<textarea name="message" rows="4" required placeholder="Pièces concernées, surface approximative, délais…"></textarea></label>
-          <button class="pill pill-accent" type="submit"><svg class="ico" aria-hidden="true"><use href="#i-chat"/></svg>Envoyer ma demande sur WhatsApp</button>
+          <div class="form-actions">
+            <button class="pill pill-accent" type="submit" value="whatsapp"><svg class="ico" aria-hidden="true"><use href="#i-chat"/></svg>Envoyer sur WhatsApp</button>
+            <button class="pill pill-outline" type="submit" value="mail"><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>Envoyer par e-mail</button>
+          </div>
         </form>
       </div>
     </section>
